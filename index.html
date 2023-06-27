@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/main.css">
+  <script defer type="module" src="/main.js"></script>
+  <title>Calculator in JavaScript</title>
+</head>
+
+<body>
+  <div id="page-container">
+    <main>
+      <form id="calc">
+        <label for="expression" class="calc-label">Calculator</label>
+        <input type="text" id="expression" name="expression" class="expression" placeholder="0" readonly>
+        <div id="calc-buttons" class="button-grid">
+          <input type="button" name="ac" class="anim-button round-button comand-button" value="AC">
+          <input type="button" name="obracket" class="anim-button round-button comand-button" value="(">
+          <input type="button" name="cbracket" class="anim-button round-button comand-button" value=")">
+          <input type="button" name="div" class="anim-button round-button operation-button" value="&#247;">
+          
+          <input type="button" name="seven" class="anim-button round-button digit-button" value="7">
+          <input type="button" name="eight" class="anim-button round-button digit-button" value="8">
+          <input type="button" name="nine" class="anim-button round-button digit-button" value="9">
+          <input type="button" name="mul" class="anim-button round-button operation-button" value="&#215;">
+          
+          <input type="button" name="four" class="anim-button round-button digit-button" value="4">
+          <input type="button" name="five" class="anim-button round-button digit-button" value="5">
+          <input type="button" name="six" class="anim-button round-button digit-button" value="6">
+          <input type="button" name="sub" class="anim-button round-button operation-button" value="-">
+          
+          <input type="button" name="one" class="anim-button round-button digit-button" value="1">
+          <input type="button" name="two" class="anim-button round-button digit-button" value="2">
+          <input type="button" name="three" class="anim-button round-button digit-button" value="3">
+          <input type="button" name="add" class="anim-button round-button operation-button" value="+">
+          
+          <input type="button" name="zero" class="anim-button round-button digit-button" value="0">
+          <input type="button" name="point" class="anim-button round-button digit-button" value=".">
+          <input type="button" name="del" class="anim-button round-button comand-button" value="DE">
+          <input type="submit" class="anim-button round-button operation-button" value="=">
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p class="copyright">© 2023 Alexander Richterich. Made with ❤️ and JavaScript</p>
+    </footer>
+  </div>
+</body>
+
+</html>
